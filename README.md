@@ -23,7 +23,7 @@ DroneSwarmGPT transforms drone fleet operations by providing:
 
 ## System Architecture
 
-<antArtifact identifier="architecture-diagram" type="application/vnd.ant.mermaid" title="System Architecture Diagram">
+```mermaid
 flowchart TB
     subgraph Inputs
         A1[Visual Input] --> B1
@@ -50,6 +50,7 @@ flowchart TB
         D2[Formation Control] --> B4
         D3[Mission Parameters] --> B4
     end
+```
 
 
 ## Data Flow
